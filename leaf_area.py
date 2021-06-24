@@ -2,8 +2,7 @@
 
 import os
 import argparse
-from plantcv import plantcv as pcv 
-import analyze_area
+from plantcv import plantcv as pcv
 import json
 import cv2
 from matplotlib import pyplot as plt
