@@ -248,6 +248,8 @@ def main():
             id_scale = object
             hier = scale_hierarchy[0][count]
             scale_pixels = area
+            print("Scale pixels:")
+            print(area)
             break
         count += 1
 
@@ -288,6 +290,7 @@ def main():
                 id_scale = object
                 hier = scale_hierarchy[0][count2]
                 scale_pixels = area
+                print("Scale pixels:")
                 print(area)
                 break
             count2 += 1
@@ -329,6 +332,7 @@ def main():
                 id_scale = object
                 hier = scale_hierarchy[0][count2]
                 scale_pixels = area
+                print("Scale pixels:")
                 print(area)
                 break
             count2 += 1
@@ -370,6 +374,7 @@ def main():
                 id_scale = object
                 hier = scale_hierarchy[0][count2]
                 scale_pixels = area
+                print("Scale pixels:")
                 print(area)
                 break
             count2 += 1
@@ -411,6 +416,7 @@ def main():
                 id_scale = object
                 hier = scale_hierarchy[0][count2]
                 scale_pixels = area
+                print("Scale pixels:")
                 print(area)
                 break
             count2 += 1
@@ -454,7 +460,7 @@ def main():
     # creating the json entry for the image
     # areas = {}
     # areas[f'{photo}'] = area_dict
-
+    print("Seedling leaf areas:")
     print(plant_areas)
 
     # # if there is an error, it does not add the data to the file
