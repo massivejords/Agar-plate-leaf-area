@@ -1,4 +1,4 @@
-# Measuring leaf area on agar plates
+# Measuring leaf area from agar plate images
 This repository contains python scripts used to measure leaf area of A. thaliana plants grown inside agar plates and python notebooks demonstrating the workflow used to quantify leaf area.
 ## Demos
 There are two demos included as ipython notebooks. The first is "Workflow_demo_sticker_and_plate.ipynb" This demonstrates the workflow used to crop the image to the plate, identify the leaves and count pixels, and to identify the area calibration scale. It also demonstrates how the agar plate itself can be used as a scale but this method was not tested on the whole image set. The validation_imgs.ipynb demonstrates how the test images using paper leaves were measured for validation through comparison with Easyleafarea (https://github.com/heaslon/Easy-Leaf-Area)
